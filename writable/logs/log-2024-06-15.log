@@ -1,0 +1,438 @@
+CRITICAL - 2024-06-15 16:42:23 --> ErrorException: Undefined variable $kecamatan
+in APPPATH\Views\Dashboard.php on line 88.
+ 1 APPPATH\Views\Dashboard.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kecamatan', 'D:\\xampp\\htdocs\\sigkab\\app\\Views\\Dashboard.php', 88)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\sigkab\\app\\Views\\Dashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(31): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-15 16:43:07 --> ErrorException: Undefined variable $kecamatan
+in APPPATH\Views\Dashboard.php on line 88.
+ 1 APPPATH\Views\Dashboard.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kecamatan', 'D:\\xampp\\htdocs\\sigkab\\app\\Views\\Dashboard.php', 88)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\sigkab\\app\\Views\\Dashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(31): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-15 16:43:26 --> ErrorException: Undefined variable $kecamatan
+in APPPATH\Views\Dashboard.php on line 94.
+ 1 APPPATH\Views\Dashboard.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kecamatan', 'D:\\xampp\\htdocs\\sigkab\\app\\Views\\Dashboard.php', 94)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\sigkab\\app\\Views\\Dashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(31): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-15 16:52:23 --> ErrorException: Attempt to read property "nama_kecamatan" on null
+in APPPATH\Views\Dashboard.php on line 88.
+ 1 APPPATH\Views\Dashboard.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama_kecamatan" on null', 'D:\\xampp\\htdocs\\sigkab\\app\\Views\\Dashboard.php', 88)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\sigkab\\app\\Views\\Dashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(40): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-15 16:52:47 --> ErrorException: Attempt to read property "luas_wilayah" on null
+in APPPATH\Views\Dashboard.php on line 94.
+ 1 APPPATH\Views\Dashboard.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "luas_wilayah" on null', 'D:\\xampp\\htdocs\\sigkab\\app\\Views\\Dashboard.php', 94)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\sigkab\\app\\Views\\Dashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(40): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-15 16:54:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 16:54:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 16:54:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 16:58:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-15 16:58:04 --> ErrorException: Attempt to read property "kode_kabupaten" on null
+in APPPATH\Views\Dashboard.php on line 14.
+ 1 APPPATH\Views\Dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode_kabupaten" on null', 'D:\\xampp\\htdocs\\sigkab\\app\\Views\\Dashboard.php', 14)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\sigkab\\app\\Views\\Dashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(40): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-15 16:58:51 --> ErrorException: Attempt to read property "kode_kabupaten" on null
+in APPPATH\Views\Dashboard.php on line 14.
+ 1 APPPATH\Views\Dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode_kabupaten" on null', 'D:\\xampp\\htdocs\\sigkab\\app\\Views\\Dashboard.php', 14)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\sigkab\\app\\Views\\Dashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(40): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-15 17:01:28 --> ErrorException: Undefined variable $kabupaten
+in APPPATH\Views\Dashboard.php on line 14.
+ 1 APPPATH\Views\Dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kabupaten', 'D:\\xampp\\htdocs\\sigkab\\app\\Views\\Dashboard.php', 14)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\sigkab\\app\\Views\\Dashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(40): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-15 17:01:30 --> ErrorException: Undefined variable $kabupaten
+in APPPATH\Views\Dashboard.php on line 14.
+ 1 APPPATH\Views\Dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kabupaten', 'D:\\xampp\\htdocs\\sigkab\\app\\Views\\Dashboard.php', 14)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\sigkab\\app\\Views\\Dashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(40): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-15 17:06:44 --> ErrorException: Undefined variable $kabupate
+in APPPATH\Views\Dashboard.php on line 88.
+ 1 APPPATH\Views\Dashboard.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kabupate', 'D:\\xampp\\htdocs\\sigkab\\app\\Views\\Dashboard.php', 88)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\sigkab\\app\\Views\\Dashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(40): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-15 17:11:10 --> ErrorException: Undefined variable $kabupaten
+in APPPATH\Views\Dashboard.php on line 14.
+ 1 APPPATH\Views\Dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kabupaten', 'D:\\xampp\\htdocs\\sigkab\\app\\Views\\Dashboard.php', 14)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\sigkab\\app\\Views\\Dashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(38): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-15 17:12:06 --> ErrorException: Undefined variable $kecamatan
+in APPPATH\Views\Dashboard.php on line 14.
+ 1 APPPATH\Views\Dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kecamatan', 'D:\\xampp\\htdocs\\sigkab\\app\\Views\\Dashboard.php', 14)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\sigkab\\app\\Views\\Dashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(38): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-15 17:12:07 --> ErrorException: Undefined variable $kecamatan
+in APPPATH\Views\Dashboard.php on line 14.
+ 1 APPPATH\Views\Dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kecamatan', 'D:\\xampp\\htdocs\\sigkab\\app\\Views\\Dashboard.php', 14)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\sigkab\\app\\Views\\Dashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(38): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-15 17:14:04 --> ErrorException: Undefined variable $kabupaten
+in APPPATH\Views\Dashboard.php on line 14.
+ 1 APPPATH\Views\Dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kabupaten', 'D:\\xampp\\htdocs\\sigkab\\app\\Views\\Dashboard.php', 14)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\sigkab\\app\\Views\\Dashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(38): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-15 17:14:05 --> ErrorException: Undefined variable $kabupaten
+in APPPATH\Views\Dashboard.php on line 14.
+ 1 APPPATH\Views\Dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kabupaten', 'D:\\xampp\\htdocs\\sigkab\\app\\Views\\Dashboard.php', 14)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\sigkab\\app\\Views\\Dashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(38): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-15 17:14:19 --> ErrorException: Undefined variable $kabupaten
+in APPPATH\Views\Dashboard.php on line 14.
+ 1 APPPATH\Views\Dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kabupaten', 'D:\\xampp\\htdocs\\sigkab\\app\\Views\\Dashboard.php', 14)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\sigkab\\app\\Views\\Dashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(38): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-15 17:14:20 --> ErrorException: Undefined variable $kabupaten
+in APPPATH\Views\Dashboard.php on line 14.
+ 1 APPPATH\Views\Dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kabupaten', 'D:\\xampp\\htdocs\\sigkab\\app\\Views\\Dashboard.php', 14)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\sigkab\\app\\Views\\Dashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(38): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-15 17:14:28 --> ErrorException: Undefined variable $kabupaten
+in APPPATH\Views\Dashboard.php on line 14.
+ 1 APPPATH\Views\Dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kabupaten', 'D:\\xampp\\htdocs\\sigkab\\app\\Views\\Dashboard.php', 14)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\sigkab\\app\\Views\\Dashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(38): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-15 17:14:29 --> ErrorException: Undefined variable $kabupaten
+in APPPATH\Views\Dashboard.php on line 14.
+ 1 APPPATH\Views\Dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kabupaten', 'D:\\xampp\\htdocs\\sigkab\\app\\Views\\Dashboard.php', 14)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\sigkab\\app\\Views\\Dashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(38): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-15 17:16:20 --> ErrorException: Undefined variable $kecamatan
+in APPPATH\Views\Dashboard.php on line 16.
+ 1 APPPATH\Views\Dashboard.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kecamatan', 'D:\\xampp\\htdocs\\sigkab\\app\\Views\\Dashboard.php', 16)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\sigkab\\app\\Views\\Dashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(32): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-15 17:19:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-15 17:30:01 --> ParseError: syntax error, unexpected token "public"
+in APPPATH\Controllers\Dashboard.php on line 63.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\sigkab\\app\\Controllers\\Dashboard.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Dashboard')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Dashboard', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-15 17:30:53 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\xampp\htdocs\sigkab\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 D:\xampp\htdocs\sigkab\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'sigkab', 3306, '', 0)
+#1 D:\xampp\htdocs\sigkab\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\sigkab\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\sigkab\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\sigkab\system\Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\sigkab\system\BaseModel.php(577): CodeIgniter\Model->doFind(true, 1)
+#6 D:\xampp\htdocs\sigkab\app\Controllers\Dashboard.php(17): CodeIgniter\BaseModel->find(1)
+#7 D:\xampp\htdocs\sigkab\system\CodeIgniter.php(941): App\Controllers\Dashboard->index()
+#8 D:\xampp\htdocs\sigkab\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#9 D:\xampp\htdocs\sigkab\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\sigkab\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\xampp\htdocs\sigkab\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\xampp\htdocs\sigkab\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\sigkab\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\sigkab\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\sigkab\system\Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\sigkab\system\BaseModel.php(577): CodeIgniter\Model->doFind(true, 1)
+#5 D:\xampp\htdocs\sigkab\app\Controllers\Dashboard.php(17): CodeIgniter\BaseModel->find(1)
+#6 D:\xampp\htdocs\sigkab\system\CodeIgniter.php(941): App\Controllers\Dashboard->index()
+#7 D:\xampp\htdocs\sigkab\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 D:\xampp\htdocs\sigkab\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\sigkab\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-15 17:30:53 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kabupaten`
+WHERE `kabupaten`.`id_kabupaten` = :kabupaten.id_kabupaten:', [...], false)
+ 3 SYSTEMPATH\Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(577): CodeIgniter\Model->doFind(true, 1)
+ 5 APPPATH\Controllers\Dashboard.php(17): CodeIgniter\BaseModel->find(1)
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-15 17:32:21 --> ErrorException: Attempt to read property "kode_kecamatan" on array
+in APPPATH\Controllers\Dashboard.php on line 45.
+ 1 APPPATH\Controllers\Dashboard.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode_kecamatan" on array', 'D:\\xampp\\htdocs\\sigkab\\app\\Controllers\\Dashboard.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->getdata()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-15 17:32:42 --> ErrorException: Attempt to read property "kode_kecamatan" on array
+in APPPATH\Controllers\Dashboard.php on line 45.
+ 1 APPPATH\Controllers\Dashboard.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode_kecamatan" on array', 'D:\\xampp\\htdocs\\sigkab\\app\\Controllers\\Dashboard.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->getdata()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-15 17:32:48 --> ErrorException: Attempt to read property "kode_kecamatan" on array
+in APPPATH\Controllers\Dashboard.php on line 45.
+ 1 APPPATH\Controllers\Dashboard.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode_kecamatan" on array', 'D:\\xampp\\htdocs\\sigkab\\app\\Controllers\\Dashboard.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->getdata()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-15 17:32:48 --> ErrorException: Attempt to read property "kode_kecamatan" on array
+in APPPATH\Controllers\Dashboard.php on line 45.
+ 1 APPPATH\Controllers\Dashboard.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode_kecamatan" on array', 'D:\\xampp\\htdocs\\sigkab\\app\\Controllers\\Dashboard.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->getdata()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-15 17:32:49 --> ErrorException: Attempt to read property "kode_kecamatan" on array
+in APPPATH\Controllers\Dashboard.php on line 45.
+ 1 APPPATH\Controllers\Dashboard.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode_kecamatan" on array', 'D:\\xampp\\htdocs\\sigkab\\app\\Controllers\\Dashboard.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->getdata()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-15 17:32:49 --> ErrorException: Attempt to read property "kode_kecamatan" on array
+in APPPATH\Controllers\Dashboard.php on line 45.
+ 1 APPPATH\Controllers\Dashboard.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode_kecamatan" on array', 'D:\\xampp\\htdocs\\sigkab\\app\\Controllers\\Dashboard.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->getdata()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-15 17:32:58 --> ErrorException: Attempt to read property "kode_kecamatan" on array
+in APPPATH\Controllers\Dashboard.php on line 45.
+ 1 APPPATH\Controllers\Dashboard.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode_kecamatan" on array', 'D:\\xampp\\htdocs\\sigkab\\app\\Controllers\\Dashboard.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->getdata()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-15 17:32:59 --> ErrorException: Attempt to read property "kode_kecamatan" on array
+in APPPATH\Controllers\Dashboard.php on line 45.
+ 1 APPPATH\Controllers\Dashboard.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode_kecamatan" on array', 'D:\\xampp\\htdocs\\sigkab\\app\\Controllers\\Dashboard.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->getdata()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-15 17:33:04 --> ErrorException: Attempt to read property "kode_kecamatan" on array
+in APPPATH\Controllers\Dashboard.php on line 45.
+ 1 APPPATH\Controllers\Dashboard.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode_kecamatan" on array', 'D:\\xampp\\htdocs\\sigkab\\app\\Controllers\\Dashboard.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->getdata()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-15 17:33:05 --> ErrorException: Attempt to read property "kode_kecamatan" on array
+in APPPATH\Controllers\Dashboard.php on line 45.
+ 1 APPPATH\Controllers\Dashboard.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode_kecamatan" on array', 'D:\\xampp\\htdocs\\sigkab\\app\\Controllers\\Dashboard.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->getdata()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-15 17:33:16 --> ErrorException: Attempt to read property "kode_kecamatan" on array
+in APPPATH\Controllers\Dashboard.php on line 45.
+ 1 APPPATH\Controllers\Dashboard.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode_kecamatan" on array', 'D:\\xampp\\htdocs\\sigkab\\app\\Controllers\\Dashboard.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->getdata()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-15 17:33:43 --> ErrorException: Attempt to read property "kode_kecamatan" on array
+in APPPATH\Controllers\Dashboard.php on line 45.
+ 1 APPPATH\Controllers\Dashboard.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode_kecamatan" on array', 'D:\\xampp\\htdocs\\sigkab\\app\\Controllers\\Dashboard.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->getdata()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-15 17:43:37 --> ErrorException: Attempt to read property "kode_kecamatan" on array
+in APPPATH\Controllers\Dashboard.php on line 45.
+ 1 APPPATH\Controllers\Dashboard.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode_kecamatan" on array', 'D:\\xampp\\htdocs\\sigkab\\app\\Controllers\\Dashboard.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->getdata()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-15 17:43:55 --> ErrorException: Attempt to read property "kode_kecamatan" on array
+in APPPATH\Controllers\Dashboard.php on line 45.
+ 1 APPPATH\Controllers\Dashboard.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode_kecamatan" on array', 'D:\\xampp\\htdocs\\sigkab\\app\\Controllers\\Dashboard.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->getdata()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-15 17:46:44 --> ErrorException: Attempt to read property "kode_kecamatan" on array
+in APPPATH\Controllers\Dashboard.php on line 45.
+ 1 APPPATH\Controllers\Dashboard.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode_kecamatan" on array', 'D:\\xampp\\htdocs\\sigkab\\app\\Controllers\\Dashboard.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->getdata()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-15 17:46:45 --> ErrorException: Attempt to read property "kode_kecamatan" on array
+in APPPATH\Controllers\Dashboard.php on line 45.
+ 1 APPPATH\Controllers\Dashboard.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode_kecamatan" on array', 'D:\\xampp\\htdocs\\sigkab\\app\\Controllers\\Dashboard.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->getdata()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-15 17:46:46 --> ErrorException: Attempt to read property "kode_kecamatan" on array
+in APPPATH\Controllers\Dashboard.php on line 45.
+ 1 APPPATH\Controllers\Dashboard.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode_kecamatan" on array', 'D:\\xampp\\htdocs\\sigkab\\app\\Controllers\\Dashboard.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->getdata()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-15 17:46:48 --> ErrorException: Attempt to read property "kode_kecamatan" on array
+in APPPATH\Controllers\Dashboard.php on line 45.
+ 1 APPPATH\Controllers\Dashboard.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode_kecamatan" on array', 'D:\\xampp\\htdocs\\sigkab\\app\\Controllers\\Dashboard.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->getdata()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-15 17:46:49 --> ErrorException: Attempt to read property "kode_kecamatan" on array
+in APPPATH\Controllers\Dashboard.php on line 45.
+ 1 APPPATH\Controllers\Dashboard.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode_kecamatan" on array', 'D:\\xampp\\htdocs\\sigkab\\app\\Controllers\\Dashboard.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->getdata()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-15 17:46:51 --> ErrorException: Attempt to read property "kode_kecamatan" on array
+in APPPATH\Controllers\Dashboard.php on line 45.
+ 1 APPPATH\Controllers\Dashboard.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode_kecamatan" on array', 'D:\\xampp\\htdocs\\sigkab\\app\\Controllers\\Dashboard.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->getdata()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-15 17:51:16 --> ErrorException: Attempt to read property "kode_kecamatan" on array
+in APPPATH\Controllers\Dashboard.php on line 45.
+ 1 APPPATH\Controllers\Dashboard.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode_kecamatan" on array', 'D:\\xampp\\htdocs\\sigkab\\app\\Controllers\\Dashboard.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->getdata()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-15 17:51:18 --> ErrorException: Attempt to read property "kode_kecamatan" on array
+in APPPATH\Controllers\Dashboard.php on line 45.
+ 1 APPPATH\Controllers\Dashboard.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode_kecamatan" on array', 'D:\\xampp\\htdocs\\sigkab\\app\\Controllers\\Dashboard.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dashboard->getdata()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-15 17:55:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 17:55:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 18:16:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 18:16:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 18:16:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 18:16:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 18:16:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 18:16:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
